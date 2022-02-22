@@ -10,10 +10,8 @@ from configuration import ConfigurationParser
 
 from utils import set_benchmark, set_deterministic
 
-# /data/data3/zhangmingyang/reid
 server_conf = {
-    # "root": "path/to/your/dataset/root"
-    "root": "/data/data3/zhangmingyang/reid"
+    "root": "path/to/your/dataset/root"
 }
 
 def sync_from(path):
